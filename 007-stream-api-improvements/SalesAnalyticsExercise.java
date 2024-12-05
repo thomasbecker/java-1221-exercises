@@ -44,7 +44,7 @@ public class SalesAnalyticsExercise {
     }
 
     // TODO 2: Implement a method using teeing collector to calculate average and total
-    // Hint: Look in the API of Collectors for methods to sum and count
+    // Hint: Look in the API of Collectors for methods to sum and count which might be useful
     static SalesStats calculateStats(List<Sale> sales, String category) {
         return null; // Use teeing to calculate multiple statistics at once
     }
