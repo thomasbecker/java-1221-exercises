@@ -33,7 +33,7 @@ public class FilePermissionsExercise {
     // TODO 2: Create a sealed interface 'User' that permits:
     // AdminUser, RegularUser, and GuestUser
     // Include appropriate fields for each user type
-    // E.g. AdminUser may have some admin field, RegularUser a department, GuestUser might expire or have 
+    // E.g. AdminUser may have some admin field, RegularUser a department, GuestUser might expire
 
     // TODO 3: Create a sealed interface 'Resource' that permits:
     // File, Directory, and SymbolicLink
@@ -42,6 +42,8 @@ public class FilePermissionsExercise {
 
     // TODO 4: Implement a PermissionChecker class that uses pattern matching
     // to determine if a user has permission for a specific action on a resource
+
+    // Hint: A user should have write and execute permissions on resources he owns. Guests have only read permissions.
 
     public static void main(String[] args) {
         // TODO 5: Create instances of different users, resources, and permissions
