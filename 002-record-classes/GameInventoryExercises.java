@@ -30,7 +30,7 @@
  * Your task is to implement a game inventory system using Java Records.
  * Follow the TODO comments to complete the implementation.
  */
-public class GameInventoryExercise {
+public class GameInventoryExercises {
     // TODO 1: Create a record 'Item' with fields: id (int), name (String), value (int)
     // Add validation in a compact constructor to ensure name is not empty and value is positive
 
