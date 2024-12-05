@@ -34,7 +34,8 @@ public class GameInventoryExercises {
     // TODO 1: Create a record 'Item' with fields: id (int), name (String), value (int)
     // Add validation in a compact constructor to ensure name is not empty and value is positive
 
-    // TODO 2: Create a record 'Weapon' that extends Item with additional fields: damage (int), durability (int)
+    // TODO 2: Create a record 'Weapon' that shares the fields: id (int), name (String), 
+    // value (int) and additionally has: damage (int), durability (int) with Item
     // Hint: Records can't inherit from other records, but can implement interfaces
 
     // TODO 3: Create a record 'InventorySlot' containing: item (Item), quantity (int)
