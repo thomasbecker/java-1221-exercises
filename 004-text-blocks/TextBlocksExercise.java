@@ -11,6 +11,8 @@
  * - Space preservation
  *
  * Task: Complete the methods to explore different text block features
+ * Note: String templates are a preview feature in Java 21 and preview features have to be enabled
+ * (https://www.baeldung.com/java-preview-features)
  */
 public class TextBlocksExercise {
 
