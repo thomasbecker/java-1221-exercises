@@ -22,11 +22,10 @@ import java.util.concurrent.CompletableFuture;
  */
 public class WeatherServiceExercise {
 
-    record WeatherData(String location, double temperature, String condition) {
+    record WeatherData(String location, String jsonData) {
         @Override
         public String toString() {
-            return "Weather in %s: %.1f°C, %s"
-                    .formatted(location, temperature, condition);
+            return "Weather in %s: %.1f°C, %s".formatted(location, jsonData);
         }
     }
 
