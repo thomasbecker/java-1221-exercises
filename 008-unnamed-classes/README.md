@@ -20,7 +20,7 @@ Follow the TODOs to implement each version.
    - desired output:
 
    ```sh
-   ❯ java --enable-preview PersonalizedGreeting John
+   ❯ java --enable-preview PersonalizedGreeting
    Welcome to modern Java!
    Current time: 13:42:34.621417
    ```
